@@ -127,7 +127,7 @@ public class MainActivity extends AppCompatActivity {
             });
 
             try {
-                CapturedResult result = router.capture(prepared.bytes, EnumPresetTemplate.PT_READ_BARCODES);
+                CapturedResult result = router.capture(prepared.bytes, EnumPresetTemplate.PT_READ_BARCODES_READ_RATE_FIRST);
                 mainHandler.post(() -> {
                     if (requestId == activeRequest) {
                         if (result == null) {
