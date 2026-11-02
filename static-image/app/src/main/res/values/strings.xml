@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Static Image Barcode Reader</string>
+    <string name="header_title">Static Image</string>
+    <string name="header_subtitle">Dynamsoft Barcode Reader</string>
+
+    <string name="select_image">Select Image</string>
+    <string name="select_prompt">Choose a photo to find barcodes</string>
+    <string name="selected_image">Selected image</string>
+    <string name="decoding">Decoding image…</string>
+    <string name="status_no_image">No image selected</string>
+    <string name="status_decoding">Decoding image…</string>
+    <string name="status_no_barcodes">No barcodes found. Try a sharper or closer photo.</string>
+    <string name="status_decode_error">Decode failed (error %1$d): %2$s</string>
+    <string name="error_load_image">Could not open image: %1$s</string>
+    <string name="error_decode">Could not decode image: %1$s</string>
+    <string name="license_failed">License initialization failed: %1$s</string>
+
+    <plurals name="status_barcodes_found">
+        <item quantity="one">%d barcode found</item>
+        <item quantity="other">%d barcodes found</item>
+    </plurals>
+</resources>
